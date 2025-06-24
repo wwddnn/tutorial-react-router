@@ -9,7 +9,7 @@ export default function Invoice() {
   return (
     <>
       {
-        invoice &&
+      invoice && 
         <main style={{ padding: "1rem" }}>
           <h2>Total Due: {invoice.amount}</h2>
           <p>
